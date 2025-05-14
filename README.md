@@ -38,7 +38,7 @@ El desarrollo del proyecto se dividirá en las siguientes etapas:
     -   Parsear la respuesta JSON.
     -   Extraer la información relevante.
     -   (Definir estrategia de snapshot e histórico similar a MSRC si aplica).
--   TODO: Sistema de Detección de Novedades y Actualizaciones:
+-   DONE: Sistema de Detección de Novedades y Actualizaciones:
     -   Implementar la carga de los archivos históricos del mes actual y del mes inmediatamente anterior (ej. `data/historico/msrc_YYYY-MM.json` y `data/historico/msrc_YYYY-(MM-1).json`).
     -   Consolidar estos históricos en un único mapa de comparación en memoria (ID -> `revision_history`).
     -   Comparar las vulnerabilidades del snapshot actual con este mapa de comparación consolidado:
