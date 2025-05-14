@@ -1,0 +1,255 @@
+[
+  {
+    "id": "CVE-2025-30385",
+    "title": "Windows Common Log File System Driver Elevation of Privilege Vulnerability",
+    "published_date": "2025-05-13T07:00:00",
+    "description": "Use after free in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally.",
+    "cwe_id": "CWE-416",
+    "cwe_description": "Use After Free",
+    "severity": "Important",
+    "cvss_base_score": "7.8",
+    "cvss_temporal_score": "6.8",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+    "cvss_product_id": "11568",
+    "affected_product_ids": [
+      "11568",
+      "11569",
+      "11571",
+      "11572",
+      "11923",
+      "11924",
+      "11929",
+      "11930",
+      "11931",
+      "12085",
+      "12086",
+      "12097",
+      "12098",
+      "12099",
+      "12437",
+      "12242",
+      "12243",
+      "12244",
+      "12389",
+      "12390",
+      "12436",
+      "10729",
+      "10735",
+      "10852",
+      "10853",
+      "10816",
+      "10855",
+      "9312",
+      "10287",
+      "9318",
+      "9344",
+      "10051",
+      "10049",
+      "10378",
+      "10379",
+      "10483",
+      "10543"
+    ],
+    "threat_impact": "Elevation of Privilege",
+    "threat_impact_product_ids": [
+      "11568",
+      "11569",
+      "11571",
+      "11572",
+      "11923",
+      "11924",
+      "11929",
+      "11930",
+      "11931",
+      "12085",
+      "12086",
+      "12097",
+      "12098",
+      "12099",
+      "12437",
+      "12242",
+      "12243",
+      "12244",
+      "12389",
+      "12390",
+      "12436",
+      "10729",
+      "10735",
+      "10852",
+      "10853",
+      "10816",
+      "10855",
+      "9312",
+      "10287",
+      "9318",
+      "9344",
+      "10051",
+      "10049",
+      "10378",
+      "10379",
+      "10483",
+      "10543"
+    ],
+    "threat_exploit_status": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation More Likely;DOS:N/A",
+    "remediations": [
+      "5058392",
+      "5058392",
+      "5058385",
+      "5058500",
+      "5058379",
+      "5058379",
+      "5058405",
+      "5058379",
+      "5058411",
+      "5058497",
+      "5058405",
+      "5058384",
+      "5058387",
+      "5058383",
+      "5058449",
+      "5058449",
+      "5058429",
+      "5058429",
+      "5058430",
+      "5058454",
+      "5058451",
+      "5058403"
+    ],
+    "acknowledgments": [
+      {
+        "name": "George Hughey with MSRC Vulnerabilities & Mitigations",
+        "url": null
+      },
+      {
+        "name": "Dan Reynolds with MSRC Vulnerabilities & Mitigations",
+        "url": null
+      }
+    ],
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ],
+    "notes_faq": [
+      "What privileges could be gained by an attacker who successfully exploited the vulnerability? An attacker who successfully exploited this vulnerability could potentially gain the ability to crash the system by exploiting the use-after-free vulnerability, even as a standard user."
+    ],
+    "notes_tags": null,
+    "notes_cna": "Microsoft",
+    "notes_customer_action": "Yes",
+    "source": "MSRC"
+  },
+  {
+    "id": "CVE-2025-4052",
+    "title": "Chromium: CVE-2025-4052 Inappropriate implementation in DevTools",
+    "published_date": "2025-05-09T07:00:00",
+    "description": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see Google Chrome Releases for more information.",
+    "cwe_id": null,
+    "cwe_description": null,
+    "severity": "N/A",
+    "cvss_base_score": null,
+    "cvss_temporal_score": null,
+    "cvss_vector": null,
+    "cvss_product_id": null,
+    "affected_product_ids": [
+      "11655"
+    ],
+    "threat_impact": null,
+    "threat_impact_product_ids": [
+      "11655"
+    ],
+    "threat_exploit_status": "DOS:N/A",
+    "remediations": [
+      "Release Notes"
+    ],
+    "acknowledgments": null,
+    "revision_history": [
+      {
+        "number": "1.1",
+        "date": "2025-05-09T07:00:00",
+        "description": "Corrected CVE title. This is an informational change only."
+      },
+      {
+        "number": "1.0",
+        "date": "2025-05-01T22:16:02",
+        "description": "Information published."
+      }
+    ],
+    "notes_faq": [
+      "What is the version information for this release? Microsoft Edge Version Date Released Based on Chromium Version 136.0.3240.50 5/1/2025 136.0.7103.49",
+      "Why is this Chrome CVE included in the Security Update Guide? The vulnerability assigned to this CVE is in Chromium Open Source Software (OSS) which is consumed by Microsoft Edge (Chromium-based). It is being documented in the Security Update Guide to announce that the latest version of Microsoft Edge (Chromium-based) is no longer vulnerable. How can I see the version of the browser? In your Microsoft Edge browser, click on the 3 dots (...) on the very right-hand side of the window Click on Help and Feedback Click on About Microsoft Edge"
+    ],
+    "notes_tags": null,
+    "notes_cna": null,
+    "notes_customer_action": "Yes",
+    "source": "MSRC"
+  },
+  {
+    "id": "CVE-2025-29979",
+    "title": "Microsoft Excel Remote Code Execution Vulnerability",
+    "published_date": "2025-05-13T07:00:00",
+    "description": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code locally.",
+    "cwe_id": "CWE-122",
+    "cwe_description": "Heap-based Buffer Overflow",
+    "severity": "Important",
+    "cvss_base_score": "7.8",
+    "cvss_temporal_score": "6.8",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+    "cvss_product_id": "10836",
+    "affected_product_ids": [
+      "10836",
+      "11573",
+      "11574",
+      "11762",
+      "11763",
+      "11952",
+      "11953",
+      "12420",
+      "12421",
+      "10753",
+      "10754"
+    ],
+    "threat_impact": "Remote Code Execution",
+    "threat_impact_product_ids": [
+      "10836",
+      "11573",
+      "11574",
+      "11762",
+      "11763",
+      "11952",
+      "11953",
+      "12420",
+      "12421",
+      "10753",
+      "10754"
+    ],
+    "threat_exploit_status": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A",
+    "remediations": [
+      "5002707",
+      "Click to Run",
+      "5002717"
+    ],
+    "acknowledgments": [
+      {
+        "name": "f4 & Zhiniang Peng with HUST",
+        "url": null
+      }
+    ],
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ],
+    "notes_faq": [
+      "Is the Preview Pane an attack vector for this vulnerability? No, the Preview Pane is not an attack vector.",
+      "According to the CVSS metric, the attack vector is local (AV:L). Why does the CVE title indicate that this is a remote code execution? The word Remote in the title refers to the location of the attacker. This type of exploit is sometimes referred to as Arbitrary Code Execution (ACE). The attack itself is carried out locally. For example, when the score indicates that the Attack Vector is Local and User Interaction is Required, this could describe an exploit in which an attacker, through social engineering, convinces a victim to download and open a specially crafted file from a website which leads to a local attack on their computer."
+    ],
+    "notes_tags": null,
+    "notes_cna": "Microsoft",
+    "notes_customer_action": "Yes",
+    "source": "MSRC"
+  }
+]

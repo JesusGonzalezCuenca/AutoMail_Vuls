@@ -11,13 +11,15 @@ El flujo de trabajo principal es el siguiente:
 1.  **Recopilación de Datos**: El sistema obtiene la información más reciente de las fuentes (ej. el último documento CVRF mensual de MSRC). Esta información completa se imprime en consola y se guarda en un archivo JSON local (ej. `data/msrc_snapshot.json`) que se sobrescribe en cada ejecución.
 2.  **Detección de Novedades y Actualizaciones**:
     -   Se mantiene un **histórico persistente** de vulnerabilidades ya procesadas, almacenado en archivos JSON mensuales (ej. `data/historico/msrc_YYYY-MM.json`). Cada entrada en estos archivos guarda el ID de la vulnerabilidad y su `revision_history` completo.
-    -   La información del snapshot actual se compara con el archivo histórico del **mes actual**.
-    -   Una vulnerabilidad se considera "para procesar" si es genuinamente nueva (su ID no está en el histórico del mes anterior) o si su `revision_history` ha cambiado respecto a la versión registrada en el histórico del mes actual.
+    -   En cada ejecución, se cargan los archivos históricos del **mes actual** y del **mes inmediatamente anterior** (ej. `data/historico/msrc_YYYY-MM.json` y `data/historico/msrc_YYYY-(MM-1).json`).
+    -   Estos dos históricos se consolidan en un mapa de comparación en memoria.
+    -   La información del snapshot actual se compara con este mapa de comparación consolidado.
+    -   Una vulnerabilidad se considera "para procesar" si es genuinamente nueva (su ID no está en el mapa de comparación consolidado) o si su `revision_history` ha cambiado respecto a la versión registrada en dicho mapa.
 3.  **Procesamiento y Notificación**:
     -   Las vulnerabilidades identificadas como nuevas o actualizadas se guardan en un archivo JSON temporal (ej. `data/vulnerabilities_for_processing.json`), que también se sobrescribe en cada ejecución.
     -   Este conjunto de vulnerabilidades se enriquece convirtiéndolo a lenguaje natural y aplicando una plantilla de email directamente mediante la API de OpenAI (ChatGPT).
     -   Finalmente, el informe enriquecido se envía por correo electrónico a los destinatarios configurados.
-4.  **Actualización del Histórico**: El `id` y `revision_history` de las vulnerabilidades procesadas (nuevas o actualizadas en esta ejecución) se registran en el archivo histórico del mes **actual** (`data/historico/msrc_YYYY-MM.json`). Este archivo se actualiza o crea si no existe, acumulando las vulnerabilidades procesadas durante el mes corriente.
+4.  **Actualización del Histórico**: El `id` y `revision_history` de las vulnerabilidades procesadas (nuevas o actualizadas en esta ejecución) se registran/actualizan en el archivo histórico del mes **actual** (`data/historico/msrc_YYYY-MM.json`), asegurando que este archivo refleje todo lo procesado durante el mes corriente.
 
 Todo el proceso está diseñado para ejecutarse periódicamente, asegurando una vigilancia continua y oportuna.
 
@@ -37,12 +39,13 @@ El desarrollo del proyecto se dividirá en las siguientes etapas:
     -   Extraer la información relevante.
     -   (Definir estrategia de snapshot e histórico similar a MSRC si aplica).
 -   TODO: Sistema de Detección de Novedades y Actualizaciones:
-    -   Implementar la carga del archivo histórico del mes actual (ej. `data/historico/msrc_YYYY-MM.json`).
-    -   Comparar las vulnerabilidades del snapshot actual con el histórico del mes actual:
-        -   Identificar vulnerabilidades genuinamente nuevas (ID no en el histórico del mes anterior).
-        -   Identificar vulnerabilidades actualizadas (ID en el histórico del mes anterior, pero `revision_history` diferente).
+    -   Implementar la carga de los archivos históricos del mes actual y del mes inmediatamente anterior (ej. `data/historico/msrc_YYYY-MM.json` y `data/historico/msrc_YYYY-(MM-1).json`).
+    -   Consolidar estos históricos en un único mapa de comparación en memoria (ID -> `revision_history`).
+    -   Comparar las vulnerabilidades del snapshot actual con este mapa de comparación consolidado:
+        -   Identificar vulnerabilidades genuinamente nuevas (ID no presente en el mapa consolidado).
+        -   Identificar vulnerabilidades actualizadas (ID presente en el mapa consolidado, pero `revision_history` diferente).
     -   Guardar las vulnerabilidades nuevas o actualizadas (objetos completos del snapshot) en un archivo JSON temporal para procesamiento (ej. `data/vulnerabilities_for_processing.json`).
-    -   Actualizar/guardar el `id` y `revision_history` de las vulnerabilidades procesadas en el archivo histórico del mes actual (`data/historico/msrc_YYYY-MM.json`).
+    -   Actualizar/guardar el `id` y `revision_history` de las vulnerabilidades procesadas en el archivo histórico del mes actual (`data/historico/msrc_YYYY-MM.json`), añadiendo las nuevas o actualizando las existentes.
 -   TODO: Orquestador y Programador de Tareas:
     -   Integrar los módulos anteriores en un script principal.
     -   Utilizar una biblioteca (e.g., `schedule`, `APScheduler`) para ejecutar el proceso de scraping y detección periódicamente (configurable, por ejemplo, "cada X horas").
@@ -77,3 +80,22 @@ El desarrollo del proyecto se dividirá en las siguientes etapas:
     -   `smtplib`, `email` (Módulos estándar de Python): Para el envío de correos.
     -   `sqlite3` (Módulo estándar de Python, opcional): Para almacenamiento persistente de vulnerabilidades vistas.
     -   `Jinja2` (Opcional): Para plantillas de texto más complejas.
+// ...existing code...
+```
+
+**Cambios Clave en esta versión:**
+
+*   **Descripción del Proyecto (Punto 2):**
+    *   Se especifica que se cargan los históricos del **mes actual y del mes inmediatamente anterior**.
+    *   Se menciona la consolidación en un **mapa de comparación en memoria**.
+    *   La comparación del snapshot se hace contra este **mapa consolidado**.
+    *   La definición de "para procesar" se refiere a si es nueva o actualizada respecto al **mapa de comparación consolidado**.
+*   **Etapa 1 - Sistema de Detección de Novedades y Actualizaciones:**
+    *   La carga es de los archivos históricos del **mes actual y del mes inmediatamente anterior**.
+    *   Se añade la tarea de **consolidar estos históricos** en un mapa de comparación.
+    *   La comparación es con este **mapa de comparación consolidado**.
+    *   La identificación de nuevas/actualizadas es en referencia al **mapa consolidado**.
+
+Estos cambios deberían alinear el `README.md` con la estrategia de comparación más robusta que hemos discutido.
+
+Ahora sí, ¿listo para volver al Paso 1 de la implementación (la función para cargar los históricos) teniendo en cuenta que necesitaremos cargar dos archivos y consolidarlos?

@@ -1,0 +1,852 @@
+[
+  {
+    "id": "CVE-2025-4050",
+    "revision_history": [
+      {
+        "number": "1.1",
+        "date": "2025-05-09T07:00:00",
+        "description": "Corrected CVE title. This is an informational change only."
+      },
+      {
+        "number": "1.0",
+        "date": "2025-05-01T22:15:58",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-4096",
+    "revision_history": [
+      {
+        "number": "1.1",
+        "date": "2025-05-09T07:00:00",
+        "description": "Corrected CVE title. This is an informational change only."
+      },
+      {
+        "number": "1.0",
+        "date": "2025-05-01T22:15:53",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26646",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26684",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29825",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-01T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29959",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29960",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29964",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29966",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29967",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29968",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29969",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29970",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29971",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29973",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29975",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29976",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29977",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29978",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30375",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30376",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30377",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30378",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30379",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30381",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30382",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30383",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30384",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30386",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30387",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27468",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30393",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29826",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30394",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30400",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-32701",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-32703",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-32706",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-21264",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-33072",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-32709",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26677",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27488",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26685",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29829",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29830",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29831",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29832",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29833",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29835",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29836",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29837",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29838",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29839",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29840",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29841",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29842",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29954",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29955",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29956",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29957",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29958",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29961",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29962",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29963",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29974",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30388",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30397",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-32702",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-32704",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-32705",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-32707",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29972",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29827",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29813",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-47733",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-47732",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-4372",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-08T23:20:05",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-24063",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-4051",
+    "revision_history": [
+      {
+        "number": "1.1",
+        "date": "2025-05-09T07:00:00",
+        "description": "Corrected CVE title. This is an informational change only."
+      },
+      {
+        "number": "1.0",
+        "date": "2025-05-01T22:16:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30385",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-4052",
+    "revision_history": [
+      {
+        "number": "1.1",
+        "date": "2025-05-09T07:00:00",
+        "description": "Corrected CVE title. This is an informational change only."
+      },
+      {
+        "number": "1.0",
+        "date": "2025-05-01T22:16:02",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29979",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  }
+]

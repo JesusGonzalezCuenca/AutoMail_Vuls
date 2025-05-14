@@ -1,0 +1,81 @@
+from processor import identify_new_or_updated_vulnerabilities
+from storage import (
+    save_snapshot_data,
+    load_comparison_historic_map,
+    save_processed_vulnerabilities,
+    update_current_month_historic
+)
+from collectors import fetch_msrc_vulnerabilities
+import sys
+import os
+
+# Añadir el directorio 'src' al PYTHONPATH para asegurar que los módulos se encuentren
+# Esto es útil si ejecutas main.py directamente desde la raíz del proyecto o desde src.
+# Si usas un entorno virtual y has instalado tu paquete, esto podría no ser estrictamente necesario,
+# pero es una buena práctica para scripts.
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# Asumiendo que src está un nivel dentro del proyecto
+project_root = os.path.dirname(current_dir)
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+if current_dir not in sys.path:  # Asegurar que src también esté para imports directos si es necesario
+    sys.path.insert(0, current_dir)
+
+
+def run_msrc_detection_process():
+    """
+    Orquesta el proceso completo de detección de vulnerabilidades de MSRC:
+    1. Obtiene el snapshot de vulnerabilidades.
+    2. Guarda el snapshot.
+    3. Carga el histórico de comparación.
+    4. Identifica vulnerabilidades nuevas o actualizadas.
+    5. Guarda las vulnerabilidades para procesamiento.
+    6. Actualiza el histórico del mes actual.
+    """
+    print("Iniciando proceso de detección de vulnerabilidades MSRC...")
+
+    # 1. Obtener el snapshot de vulnerabilidades de MSRC
+    print("Paso 1: Obteniendo snapshot de vulnerabilidades de MSRC...")
+    msrc_snapshot_vulnerabilities = fetch_msrc_vulnerabilities()
+
+    if not msrc_snapshot_vulnerabilities:
+        print("No se obtuvieron vulnerabilidades del snapshot de MSRC o hubo un error. Finalizando proceso.")
+        return
+
+    # 2. Guardar el snapshot crudo
+    print(
+        f"Paso 2: Guardando snapshot de MSRC ({len(msrc_snapshot_vulnerabilities)} vulnerabilidades)...")
+    save_snapshot_data(msrc_snapshot_vulnerabilities, source_prefix="msrc")
+
+    # 3. Cargar el mapa histórico de comparación (mes actual y anterior)
+    print("Paso 3: Cargando mapa histórico de comparación...")
+    historic_comparison_map = load_comparison_historic_map(
+        source_prefix="msrc")
+
+    # 4. Identificar vulnerabilidades nuevas o actualizadas
+    print("Paso 4: Identificando vulnerabilidades nuevas o actualizadas...")
+    vulnerabilities_for_processing, vulnerabilities_for_historic_update = \
+        identify_new_or_updated_vulnerabilities(
+            msrc_snapshot_vulnerabilities, historic_comparison_map)
+
+    if not vulnerabilities_for_processing:
+        print(
+            "No se identificaron vulnerabilidades nuevas o actualizadas en esta ejecución.")
+    else:
+        # 5. Guardar las vulnerabilidades nuevas/actualizadas para procesamiento posterior
+        print(
+            f"Paso 5: Guardando {len(vulnerabilities_for_processing)} vulnerabilidades para procesamiento...")
+        save_processed_vulnerabilities(vulnerabilities_for_processing,
+                                       filename="msrc_vulnerabilities_for_processing.json")
+
+        # 6. Actualizar el archivo histórico del mes actual
+        print(
+            f"Paso 6: Actualizando histórico del mes actual con {len(vulnerabilities_for_historic_update)} entradas...")
+        update_current_month_historic(
+            vulnerabilities_for_historic_update, source_prefix="msrc")
+
+    print("Proceso de detección de vulnerabilidades MSRC finalizado.")
+
+
+if __name__ == "__main__":
+    run_msrc_detection_process()
