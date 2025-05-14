@@ -68,8 +68,6 @@ def fetch_msrc_vulnerabilities():
         print(f"Status Code de CVRF: {response_cvrf.status_code}")
 
         root = ET.fromstring(response_cvrf.content)
-        # doc_tracking = root.find('cvrf:DocumentTracking', XML_NAMESPACES) # Not currently used for per-vulnerability data
-        # cvrf_release_date = get_xml_text(doc_tracking, 'cvrf:InitialReleaseDate') # Document level, not per-vulnerability
 
         parsed_vulnerabilities = []
         for vuln_node in root.findall('vuln:Vulnerability', XML_NAMESPACES):
@@ -80,12 +78,9 @@ def fetch_msrc_vulnerabilities():
             if title_node is not None and title_node.text and title_node.text.strip():
                 title = title_node.text.strip()
             else:
-                # Existing filter: Skip if no title
                 continue
 
-            # Initialize all note-derived fields
             description = None
-            # This flag is crucial for the existing filter logic for description
             description_node_found_but_empty = False
             notes_faq_list = []
             notes_tags = []
@@ -94,9 +89,6 @@ def fetch_msrc_vulnerabilities():
 
             notes_node = vuln_node.find('vuln:Notes', XML_NAMESPACES)
             if notes_node is not None:
-                # This flag ensures that 'description' and 'description_node_found_but_empty'
-                # are set based on the *first* encountered "Description" type note,
-                # mimicking the behavior of the original code that had a 'break'.
                 description_filter_info_set = False
                 for note in notes_node.findall('vuln:Note', XML_NAMESPACES):
                     note_title_attr = note.get('Title')
@@ -106,41 +98,32 @@ def fetch_msrc_vulnerabilities():
                     clean_note_text = None
                     if raw_text_content:
                         unescaped_text = html.unescape(raw_text_content)
-                        # Strip HTML tags
                         plain_text = re.sub(r'<[^>]+>', '', unescaped_text)
-                        # Normalize whitespace
                         temp_clean_text = re.sub(
                             r'\s+', ' ', plain_text).strip()
                         if temp_clean_text and temp_clean_text.lower() != 'none':
                             clean_note_text = temp_clean_text
 
                     if note_title_attr == 'Description' and note_type_attr == 'Description':
-                        if not description_filter_info_set:  # Process only the first for filter flags
+                        if not description_filter_info_set:
                             if clean_note_text:
                                 description = clean_note_text
-                            # Node exists but is truly empty (e.g. <Note .../>)
                             elif not raw_text_content:
                                 description_node_found_but_empty = True
                             description_filter_info_set = True
-                        # For data collection, if multiple description notes, could append or take first/last.
-                        # Current logic for 'description' variable takes the first valid one for the filter.
 
                     elif note_title_attr == 'FAQ' and clean_note_text:
                         notes_faq_list.append(clean_note_text)
                     elif note_title_attr == 'Tag' and clean_note_text:
                         notes_tags.append(clean_note_text)
                     elif note_title_attr == 'Microsoft' and note_type_attr == 'CNA' and clean_note_text:
-                        notes_cna = clean_note_text  # Assuming one
+                        notes_cna = clean_note_text
                     elif note_title_attr == 'Customer Action Required' and clean_note_text:
-                        notes_customer_action = clean_note_text  # Assuming one
+                        notes_customer_action = clean_note_text
 
-            # Existing filter for description (MUST NOT CHANGE)
-            # Skips if no description note was found at all.
-            # Keeps if description note was found but empty (description will be None, description_node_found_but_empty will be True)
             if description is None and not description_node_found_but_empty:
                 continue
 
-            # CWE
             cwe_id_val = None
             cwe_description_val = None
             cwe_node = vuln_node.find('vuln:CWE', XML_NAMESPACES)
@@ -149,19 +132,16 @@ def fetch_msrc_vulnerabilities():
                 if cwe_node.text and cwe_node.text.strip():
                     cwe_description_val = cwe_node.text.strip()
 
-            # Product Statuses
             product_ids_affected = []
             product_statuses_node = vuln_node.find(
                 'vuln:ProductStatuses', XML_NAMESPACES)
             if product_statuses_node is not None:
                 for status_node in product_statuses_node.findall('vuln:Status', XML_NAMESPACES):
-                    # Could also check status_node.get('Type') == "Known Affected"
                     for prod_id_node in status_node.findall('vuln:ProductID', XML_NAMESPACES):
                         if prod_id_node.text and prod_id_node.text.strip():
                             product_ids_affected.append(
                                 prod_id_node.text.strip())
 
-            # Revision History (detailed) and Published Date
             latest_published_date_obj = None
             revision_history_list = []
             revision_history_node = vuln_node.find(
@@ -206,7 +186,6 @@ def fetch_msrc_vulnerabilities():
             published_date = latest_published_date_obj.strftime(
                 '%Y-%m-%dT%H:%M:%S') if latest_published_date_obj else None
 
-            # Threats (Severity, Impact, Exploit Status)
             severity = None
             threat_impact_description = None
             threat_impact_product_ids = []
@@ -221,7 +200,6 @@ def fetch_msrc_vulnerabilities():
                     if threat_type == 'Severity':
                         if desc_text:
                             severity = desc_text
-                        # Node exists but empty
                         elif threat.find('vuln:Description', XML_NAMESPACES) is not None:
                             severity = "N/A"
                     elif threat_type == 'Impact':
@@ -233,16 +211,14 @@ def fetch_msrc_vulnerabilities():
                     elif threat_type == 'Exploit Status':
                         threat_exploit_status_description = desc_text
 
-            # CVSS Scores
             cvss_base_score = None
             cvss_vector = None
             cvss_temporal_score = None
-            cvss_product_id_in_scoreset = None  # Assuming one ScoreSet or first one
+            cvss_product_id_in_scoreset = None
 
             cvss_score_sets_node = vuln_node.find(
                 'vuln:CVSSScoreSets', XML_NAMESPACES)
             if cvss_score_sets_node is not None:
-                # Assuming we take the first ScoreSet if multiple
                 score_set_node = cvss_score_sets_node.find(
                     'vuln:ScoreSet', XML_NAMESPACES)
                 if score_set_node is not None:
@@ -254,23 +230,19 @@ def fetch_msrc_vulnerabilities():
                     cvss_product_id_in_scoreset = get_xml_text(
                         score_set_node, 'vuln:ProductID')
 
-            # Remediations
             remediations_list = []
             remediations_node = vuln_node.find(
                 'vuln:Remediations', XML_NAMESPACES)
             if remediations_node is not None:
                 for rem_node in remediations_node.findall('vuln:Remediation', XML_NAMESPACES):
-                    # Remediation can have Description, URL, etc. For now, just Description.
                     rem_desc = get_xml_text(rem_node, 'vuln:Description')
                     if rem_desc:
                         remediations_list.append(rem_desc)
-                    elif rem_node.text and rem_node.text.strip():  # Fallback to direct text
+                    elif rem_node.text and rem_node.text.strip():
                         remediations_list.append(rem_node.text.strip())
                 if not remediations_list and remediations_node.text and remediations_node.text.strip():
-                    # Handles <vuln:Remediations>Some text</vuln:Remediations>
                     remediations_list.append(remediations_node.text.strip())
 
-            # Acknowledgments
             acknowledgments_list = []
             acknowledgments_node = vuln_node.find(
                 'vuln:Acknowledgments', XML_NAMESPACES)
@@ -285,18 +257,18 @@ def fetch_msrc_vulnerabilities():
                         ack_name = re.sub(r'\s+', ' ', ack_name).strip()
 
                     ack_url = get_xml_text(ack_node, 'vuln:URL')
-                    if ack_name or ack_url:  # Add if there's at least some info
+                    if ack_name or ack_url:
                         acknowledgments_list.append({
                             'name': ack_name if ack_name else None,
                             'url': ack_url if ack_url else None
                         })
 
-            if cve_id:  # Ensure there's at least a CVE ID
+            if cve_id:
                 parsed_vulnerabilities.append({
                     'id': cve_id,
                     'title': title,
                     'published_date': published_date,
-                    'description': description,  
+                    'description': description,
                     'cwe_id': cwe_id_val,
                     'cwe_description': cwe_description_val,
                     'severity': severity,
@@ -333,7 +305,7 @@ def fetch_msrc_vulnerabilities():
         return []
     except Exception as e:
         print(f"Error inesperado al procesar datos de MSRC: {e}")
-        traceback.print_exc()  # traceback is now imported at the top
+        traceback.print_exc()
         return []
 
 
