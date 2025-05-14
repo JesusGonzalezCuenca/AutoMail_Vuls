@@ -457,9 +457,33 @@ if __name__ == '__main__':  # pragma: no cover
     if msrc_vulnerabilities:
         print(
             f"\nSe encontraron {len(msrc_vulnerabilities)} vulnerabilidades en el último informe de MSRC que pasaron el filtro:")
-        print("\n--- Todas las vulnerabilidades del MSRC que pasaron el filtro ---")
-        # Imprime cada vulnerabilidad en formato JSON indentado
+        print(
+            "\n--- Todas las vulnerabilidades del MSRC que pasaron el filtro (Consola) ---")
+        # Imprime cada vulnerabilidad en formato JSON indentado en la consola
         for vuln in msrc_vulnerabilities:
             print(json.dumps(vuln, indent=2, ensure_ascii=False))
+        import os
+        # Obtener la ruta del directorio del script actual (src)
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Construir la ruta al archivo JSON de forma relativa a la ubicación del script
+        # Sube un nivel desde 'src' a 'AutoMail_Vuls/AutoMail_Vuls', luego entra a 'data'
+        json_file_path = os.path.abspath(os.path.join(
+            script_dir, '..', 'data', 'microsoft_processed_vulnerabilities.json'))
+
+        try:
+            # Crear el directorio 'data' si no existe (el directorio padre del archivo json_file_path)
+            os.makedirs(os.path.dirname(json_file_path), exist_ok=True)
+
+            with open(json_file_path, 'w', encoding='utf-8') as f:
+                json.dump(msrc_vulnerabilities, f,
+                          indent=2, ensure_ascii=False)
+            print(
+                f"\n--- Datos guardados exitosamente en {json_file_path} ---")
+        except IOError as e:
+            print(f"\nError al guardar los datos en el archivo JSON: {e}")
+        except Exception as e:
+            print(f"\nOcurrió un error inesperado al guardar el JSON: {e}")
+
     else:
         print("No se encontraron vulnerabilidades de MSRC que pasaran el filtro o hubo un error.")

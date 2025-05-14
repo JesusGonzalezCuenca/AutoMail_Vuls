@@ -19,7 +19,7 @@ Todo el proceso está diseñado para ejecutarse periódicamente, asegurando una 
 El desarrollo del proyecto se dividirá en las siguientes etapas:
 
 ### Etapa 1: Core de Scraping y Detección de Novedades
-*   **[ ] Módulo de Scraping de Microsoft MSRC:**
+*   **[x] Módulo de Scraping de Microsoft MSRC:**
     *   Implementar la lógica para realizar peticiones a la API de MSRC.
     *   Parsear la respuesta JSON.
     *   Extraer la información relevante de las vulnerabilidades.
