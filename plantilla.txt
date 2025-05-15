@@ -1,0 +1,101 @@
+**\[Asunto]**: Informe de vulnerabilidad – {CVE destacado o tema principal} / Vulnerability Report – {Highlighted CVE or Main Topic}
+
+---
+
+**ESPAÑOL**
+
+**Fecha:** {Fecha del informe, ej. 14 de Mayo de 2025}
+*Colocar la fecha de emisión del correo en formato “DD de MMMM de YYYY”.*
+
+**Fecha de publicación:** {Fecha de publicación del boletín, ej. 13/05/2025}
+*Indicar la fecha en que el proveedor publicó la actualización en formato “DD/MM/YYYY”.*
+
+**Importancia:** {Crítica / Alta / Media / Baja}
+*Especificar el nivel de severidad tal como lo clasifica el fabricante o el CVSS.*
+
+**Recursos afectados:**
+• {Producto A}: versiones anteriores a {versión fija}
+• {Producto B}: versiones anteriores a {versión fija}
+…
+*Enumerar cada producto o componente afectado y su versión mínima corregida.*
+
+**Descripción:**
+{Breve explicación del propósito de la actualización y el tipo de riesgo que corrige, p. ej. “Esta actualización corrige vulnerabilidades que permiten ejecución remota de código y denegación de servicio.”}\_
+
+**Vulneridad destacada:**
+• **{CVE principal}** – {Título breve de la vulnerabilidad}
+
+* **Impactos:** {Escalada de privilegios, RCE, DoS, XSS, etc.}
+  *Describir la vulnerabilidad más crítica o relevante, con su CVE y los efectos principales.*
+
+**Vulnerabilidades zero-day / explotadas activamente (si aplica):**
+• **{CVE ZD1}** – {Título breve}
+
+* **Impactos:** {Descripción de impacto}
+  • **{CVE ZD2}** – {Título breve}
+* **Impactos:** {Descripción de impacto}
+  *Si existen vulnerabilidades divulgadas públicamente o con explotación activa, listarlas con CVE y breve descripción de impactos.*
+
+**Recomendaciones:**
+{Instrucciones generales para consultar el boletín oficial y aplicar los parches o mitigaciones según las indicaciones del fabricante.}
+*Por ejemplo: “Se recomienda descargar e instalar la versión X.Y.Z siguiendo los pasos descritos en el boletín del proveedor.”*
+
+**Referencias:**
+• {URL boletín general de seguridad}
+• {URL específico CVE principal}
+• {URL CVE ZD1 (si aplica)}
+…
+*Incluir enlaces directos al boletín de seguridad y a las entradas CVE correspondientes.*
+
+**Un saludo,**
+{Nombre del equipo o remitente}
+
+---
+
+**ENGLISH**
+
+**Date:** {Report date, e.g. May 14th, 2025}
+*Put the date the email is issued in “Month DD, YYYY” format.*
+
+**Publish date:** {Publish date of bulletin, e.g. 05/13/2025}
+*Specify the date the vendor released the update in “MM/DD/YYYY” format.*
+
+**Severity:** {Critical / High / Medium / Low}
+*Use the severity level as classified by the vendor or CVSS.*
+
+**Impacted Products:**
+• {Product A}: versions prior to {fixed version}
+• {Product B}: versions prior to {fixed version}
+…
+*List each affected product or component and its minimum patched version.*
+
+**Description:**
+{Short overview of the update’s purpose and the risk it addresses, e.g., “This update fixes vulnerabilities allowing remote code execution and DoS.”}\_
+
+**Highlighted vulnerability:**
+• **{Main CVE}** – {Short vulnerability title}
+
+* **Impact:** {Privilege escalation, RCE, DoS, XSS, etc.}
+  *Describe the most critical or relevant vulnerability, including CVE and main impacts.*
+
+**Zero-day / actively exploited vulnerabilities (if any):**
+• **{CVE ZD1}** – {Short title}
+
+* **Impact:** {Description of impact}
+  • **{CVE ZD2}** – {Short title}
+* **Impact:** {Description of impact}
+  *List publicly disclosed or actively exploited vulnerabilities with CVE and brief impact.*
+
+**Remediations:**
+{General instructions to consult the vendor’s security bulletin and apply patches or mitigations as directed.}
+*For example: “Download and install version X.Y.Z following the vendor’s guide.”*
+
+**References:**
+• {General security bulletin URL}
+• {CVE main URL}
+• {CVE ZD1 URL (if any)}
+…
+*Include direct links to the security bulletin and relevant CVE entries.*
+
+**Best regards,**
+{Team or sender name}

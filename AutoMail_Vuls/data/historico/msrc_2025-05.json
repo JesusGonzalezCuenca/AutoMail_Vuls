@@ -50,16 +50,6 @@
     ]
   },
   {
-    "id": "CVE-2025-29825",
-    "revision_history": [
-      {
-        "number": "1.0",
-        "date": "2025-05-01T07:00:00",
-        "description": "Information published."
-      }
-    ]
-  },
-  {
     "id": "CVE-2025-29959",
     "revision_history": [
       {
@@ -845,6 +835,16 @@
       {
         "number": "1.0",
         "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29825",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-01T07:00:00",
         "description": "Information published."
       }
     ]

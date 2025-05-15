@@ -1556,77 +1556,6 @@
     "source": "MSRC"
   },
   {
-    "id": "CVE-2025-30376",
-    "title": "Microsoft Excel Remote Code Execution Vulnerability",
-    "published_date": "2025-05-13T07:00:00",
-    "description": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code locally.",
-    "cwe_id": "CWE-122",
-    "cwe_description": "Heap-based Buffer Overflow",
-    "severity": "Important",
-    "cvss_base_score": "7.8",
-    "cvss_temporal_score": "6.8",
-    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
-    "cvss_product_id": "10836",
-    "affected_product_ids": [
-      "10836",
-      "11573",
-      "11574",
-      "11762",
-      "11763",
-      "11952",
-      "11953",
-      "12420",
-      "12421",
-      "10739",
-      "10740"
-    ],
-    "threat_impact": "Remote Code Execution",
-    "threat_impact_product_ids": [
-      "10836",
-      "11573",
-      "11574",
-      "11762",
-      "11763",
-      "11952",
-      "11953",
-      "12420",
-      "12421",
-      "10739",
-      "10740"
-    ],
-    "threat_exploit_status": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A",
-    "remediations": [
-      "5002707",
-      "Click to Run",
-      "5002717"
-    ],
-    "acknowledgments": [
-      {
-        "name": "Zhiniang Peng with HUST",
-        "url": null
-      },
-      {
-        "name": "cdbb6164ddfda2b210fd348442322115",
-        "url": null
-      }
-    ],
-    "revision_history": [
-      {
-        "number": "1.0",
-        "date": "2025-05-13T07:00:00",
-        "description": "Information published."
-      }
-    ],
-    "notes_faq": [
-      "According to the CVSS metric, the attack vector is local (AV:L). Why does the CVE title indicate that this is a remote code execution? The word Remote in the title refers to the location of the attacker. This type of exploit is sometimes referred to as Arbitrary Code Execution (ACE). The attack itself is carried out locally. For example, when the score indicates that the Attack Vector is Local and User Interaction is Required, this could describe an exploit in which an attacker, through social engineering, convinces a victim to download and open a specially crafted file from a website which leads to a local attack on their computer.",
-      "Is the Preview Pane an attack vector for this vulnerability? No, the Preview Pane is not an attack vector."
-    ],
-    "notes_tags": null,
-    "notes_cna": "Microsoft",
-    "notes_customer_action": "Yes",
-    "source": "MSRC"
-  },
-  {
     "id": "CVE-2025-30377",
     "title": "Microsoft Office Remote Code Execution Vulnerability",
     "published_date": "2025-05-13T07:00:00",
@@ -7133,6 +7062,82 @@
     "notes_faq": [
       "Is the Preview Pane an attack vector for this vulnerability? No, the Preview Pane is not an attack vector.",
       "According to the CVSS metric, the attack vector is local (AV:L). Why does the CVE title indicate that this is a remote code execution? The word Remote in the title refers to the location of the attacker. This type of exploit is sometimes referred to as Arbitrary Code Execution (ACE). The attack itself is carried out locally. For example, when the score indicates that the Attack Vector is Local and User Interaction is Required, this could describe an exploit in which an attacker, through social engineering, convinces a victim to download and open a specially crafted file from a website which leads to a local attack on their computer."
+    ],
+    "notes_tags": null,
+    "notes_cna": "Microsoft",
+    "notes_customer_action": "Yes",
+    "source": "MSRC"
+  },
+  {
+    "id": "CVE-2025-30376",
+    "title": "Microsoft Excel Remote Code Execution Vulnerability",
+    "published_date": "2025-05-13T07:00:00",
+    "description": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code locally.",
+    "cwe_id": "CWE-122",
+    "cwe_description": "Heap-based Buffer Overflow",
+    "severity": "Important",
+    "cvss_base_score": "7.8",
+    "cvss_temporal_score": "6.8",
+    "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+    "cvss_product_id": "10836",
+    "affected_product_ids": [
+      "10836",
+      "11573",
+      "11574",
+      "11762",
+      "11763",
+      "11951",
+      "11952",
+      "11953",
+      "12420",
+      "12421",
+      "12440",
+      "10739",
+      "10740"
+    ],
+    "threat_impact": "Remote Code Execution",
+    "threat_impact_product_ids": [
+      "10836",
+      "11573",
+      "11574",
+      "11762",
+      "11763",
+      "11951",
+      "11952",
+      "11953",
+      "12420",
+      "12421",
+      "12440",
+      "10739",
+      "10740"
+    ],
+    "threat_exploit_status": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;DOS:N/A",
+    "remediations": [
+      "5002707",
+      "Click to Run",
+      "Release Notes",
+      "5002717"
+    ],
+    "acknowledgments": [
+      {
+        "name": "Zhiniang Peng with HUST",
+        "url": null
+      },
+      {
+        "name": "cdbb6164ddfda2b210fd348442322115",
+        "url": null
+      }
+    ],
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-05-13T07:00:00",
+        "description": "Information published."
+      }
+    ],
+    "notes_faq": [
+      "According to the CVSS metric, the attack vector is local (AV:L). Why does the CVE title indicate that this is a remote code execution? The word Remote in the title refers to the location of the attacker. This type of exploit is sometimes referred to as Arbitrary Code Execution (ACE). The attack itself is carried out locally. For example, when the score indicates that the Attack Vector is Local and User Interaction is Required, this could describe an exploit in which an attacker, through social engineering, convinces a victim to download and open a specially crafted file from a website which leads to a local attack on their computer.",
+      "Is the Preview Pane an attack vector for this vulnerability? No, the Preview Pane is not an attack vector."
     ],
     "notes_tags": null,
     "notes_cna": "Microsoft",
