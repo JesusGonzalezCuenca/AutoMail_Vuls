@@ -848,5 +848,1875 @@
         "description": "Information published."
       }
     ]
+  },
+  {
+    "id": "CVE-2025-26663",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26664",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26665",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26666",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26669",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26667",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26668",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26681",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26680",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26686",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26687",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26688",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27471",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27470",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27473",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27472",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27474",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27476",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "1.1",
+        "date": "2025-04-10T07:00:00",
+        "description": "Updated acknowledgment. This is an informational change only."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27475",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27477",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27478",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27479",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27740",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "1.1",
+        "date": "2025-04-10T07:00:00",
+        "description": "Updated FAQ information. This is an informational change only."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27741",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27744",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27742",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27745",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-10T07:00:00",
+        "description": "To address a known issue that customers might experience after installing KB5002700 and that causes Microsoft Word, Microsoft Excel, and Microsoft Outlook to stop responding, Microsoft released KB5002623. Customers who have already installed KB5002700 must also install KB5002623 to correct the known issue. Customers who have not yet installed any updates must install both updates to correct the known issue. These updates can be installed in any order."
+      },
+      {
+        "number": "3.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the Release Notes for more information and download links."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27746",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the Release Notes for more information and download links."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27748",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-10T07:00:00",
+        "description": "To address a known issue that customers might experience after installing KB5002700 and that causes Microsoft Word, Microsoft Excel, and Microsoft Outlook to stop responding, Microsoft released KB5002623. Customers who have already installed KB5002700 must also install KB5002623 to correct the known issue. Customers who have not yet installed any updates must install both updates to correct the known issue. These updates can be installed in any order."
+      },
+      {
+        "number": "3.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the Release Notes for more information and download links."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27747",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "4.1",
+        "date": "2025-04-17T07:00:00",
+        "description": "Updated acknowledgment. This is an informational change only."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-10T07:00:00",
+        "description": "Revised CVE to inform customers that security update 5002692 is temporarily unavailable following some reports that the update can't be installed. We are currently investigating the issue and will notify customers via a revision to this CVE information when the issue is resolved."
+      },
+      {
+        "number": "3.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the Release Notes for more information and download links."
+      },
+      {
+        "number": "4.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "The security update for SharePoint Enterprise Server 2016 (KB5002692) is now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27749",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-10T07:00:00",
+        "description": "To address a known issue that customers might experience after installing KB5002700 and that causes Microsoft Word, Microsoft Excel, and Microsoft Outlook to stop responding, Microsoft released KB5002623. Customers who have already installed KB5002700 must also install KB5002623 to correct the known issue. Customers who have not yet installed any updates must install both updates to correct the known issue. These updates can be installed in any order."
+      },
+      {
+        "number": "3.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the Release Notes for more information and download links."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27743",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27751",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the Release Notes for more information and download links."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27752",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-10T07:00:00",
+        "description": "To address a known issue that customers might experience after installing KB5002700 and that causes Microsoft Word, Microsoft Excel, and Microsoft Outlook to stop responding, Microsoft released KB5002623. Customers who have already installed KB5002700 must also install KB5002623 to correct the known issue. Customers who have not yet installed any updates must install both updates to correct the known issue. These updates can be installed in any order."
+      },
+      {
+        "number": "3.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the Release Notes for more information and download links."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27750",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the Release Notes for more information and download links."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29791",
+    "revision_history": [
+      {
+        "number": "2.0",
+        "date": "2025-04-10T07:00:00",
+        "description": "To address a known issue that customers might experience after installing KB5002700 and that causes Microsoft Word, Microsoft Excel, and Microsoft Outlook to stop responding, Microsoft released KB5002623. Customers who have already installed KB5002700 must also install KB5002623 to correct the known issue. Customers who have not yet installed any updates must install both updates to correct the known issue. These updates can be installed in any order."
+      },
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "3.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the Release Notes for more information and download links."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29793",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-10T07:00:00",
+        "description": "Revised CVE to inform customers that security update 5002692 is temporarily unavailable following some reports that the update can't be installed. We are currently investigating the issue and will notify customers via a revision to this CVE information when the issue is resolved."
+      },
+      {
+        "number": "3.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "The security update for SharePoint Enterprise Server 2016 (KB5002692) is now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29792",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-10T07:00:00",
+        "description": "To address a known issue that customers might experience after installing KB5002700 and that causes Microsoft Word, Microsoft Excel, and Microsoft Outlook to stop responding, Microsoft released KB5002623. Customers who have already installed KB5002700 must also install KB5002623 to correct the known issue. Customers who have not yet installed any updates must install both updates to correct the known issue. These updates can be installed in any order."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29796",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-03T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29794",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-10T07:00:00",
+        "description": "Revised CVE to inform customers that security update 5002692 is temporarily unavailable following some reports that the update can't be installed. We are currently investigating the issue and will notify customers via a revision to this CVE information when the issue is resolved."
+      },
+      {
+        "number": "3.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "The security update for SharePoint Enterprise Server 2016 (KB5002692) is now available. See the Security Updates table for more information."
+      },
+      {
+        "number": "3.1",
+        "date": "2025-04-23T07:00:00",
+        "description": "Updated acknowledgment. This is an informational change only."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29821",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29820",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-10T07:00:00",
+        "description": "Revised CVE to inform customers that security update 5002692 is temporarily unavailable following some reports that the update can't be installed. We are currently investigating the issue and will notify customers via a revision to this CVE information when the issue is resolved."
+      },
+      {
+        "number": "3.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the Release Notes for more information and download links."
+      },
+      {
+        "number": "4.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "The security update for SharePoint Enterprise Server 2016 (KB5002692) is now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29822",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the Release Notes for more information and download links."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29824",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-24074",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-24073",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29817",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-21174",
+    "revision_history": [
+      {
+        "number": "1.1",
+        "date": "2025-04-11T07:00:00",
+        "description": "Acknowledgement added. This is an informational change only."
+      },
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-21197",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-21191",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-21205",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-21203",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-21204",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      },
+      {
+        "number": "2.1",
+        "date": "2025-04-10T07:00:00",
+        "description": "Added FAQ to explain that after installing the updates listed in the Security Updates table for your operating system, a new %systemdrive%\\inetpub folder will be created on your device. This folder should not be deleted regardless of whether Internet Information Services (IIS) is active on the target device. This behavior is part of changes that increase protection and does not require any action from IT admins and end users. This is an informational change only."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-21221",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-21222",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-24058",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-25000",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-03T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "1.1",
+        "date": "2025-04-18T07:00:00",
+        "description": "Corrected Build Number in the Security Updates table. This is an informational change only."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-25001",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-03T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-25002",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26628",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26639",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26635",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26637",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26642",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the Release Notes for more information and download links."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26640",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26641",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26644",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26648",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26649",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26647",
+    "revision_history": [
+      {
+        "number": "1.1",
+        "date": "2025-04-10T07:00:00",
+        "description": "Updated FAQ information. This is an informational change only."
+      },
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26651",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26652",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26670",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26671",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26674",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26672",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26675",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26676",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26678",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26679",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27467",
+    "revision_history": [
+      {
+        "number": "1.1",
+        "date": "2025-04-10T07:00:00",
+        "description": "Updated acknowledgment. This is an informational change only."
+      },
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27469",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27485",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27484",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27480",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27481",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27482",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27483",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27487",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27489",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27486",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27492",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27491",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27490",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27727",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27729",
+    "revision_history": [
+      {
+        "number": "1.1",
+        "date": "2025-04-17T07:00:00",
+        "description": "Updated acknowledgment. This is an informational change only."
+      },
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27728",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27731",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27730",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "1.1",
+        "date": "2025-04-10T07:00:00",
+        "description": "Updated acknowledgment. This is an informational change only."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27732",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-10T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27733",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27735",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27736",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27737",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27738",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-27739",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29803",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29800",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29802",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29801",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29804",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29809",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29808",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29805",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29810",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29812",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29816",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-15T07:00:00",
+        "description": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not need to take any action. See the Release Notes for more information and download links."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29815",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-03T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29819",
+    "revision_history": [
+      {
+        "number": "1.1",
+        "date": "2025-04-22T07:00:00",
+        "description": "Updated acknowledgment. This is an informational change only."
+      },
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29811",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-3066",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-03T17:47:15",
+        "description": "Information published."
+      },
+      {
+        "number": "1.1",
+        "date": "2025-04-11T07:00:00",
+        "description": "In the Security Updates table and FAQs updated the fixed build versions. Corrected CVE title. These are informational changes only."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-3070",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-03T17:47:26",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-3069",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-03T17:47:24",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-3068",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-03T17:47:22",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-3067",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-03T17:47:20",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-3071",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-03T17:47:28",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-3072",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-03T17:47:31",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-3073",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-03T17:47:33",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-3074",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-03T17:47:35",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-32726",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-24060",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-24062",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26682",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29834",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-11T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-3620",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-17T21:43:04",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30391",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-30T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30389",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-30T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-33074",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-30T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30390",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-30T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-30392",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-30T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-21416",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-30T07:00:00",
+        "description": "Information published."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-26673",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "2.0",
+        "date": "2025-04-09T07:00:00",
+        "description": "The security updates for Windows 10 for 32-bit Systems and Windows 10 for x64-based Systems are now available. See the Security Updates table for more information."
+      },
+      {
+        "number": "2.1",
+        "date": "2025-05-13T07:00:00",
+        "description": "Acknowledgement added. This is an informational change only."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-29823",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-08T07:00:00",
+        "description": "Information published."
+      },
+      {
+        "number": "1.1",
+        "date": "2025-05-13T07:00:00",
+        "description": "Updated acknowledgment. This is an informational change only."
+      }
+    ]
+  },
+  {
+    "id": "CVE-2025-3619",
+    "revision_history": [
+      {
+        "number": "1.0",
+        "date": "2025-04-17T21:42:59",
+        "description": "Information published."
+      }
+    ]
   }
 ]

@@ -18,6 +18,12 @@ XML_NAMESPACES = {
     'cvrf': 'http://www.icasi.org/CVRF/schema/cvrf/1.1'
 }
 
+# Mapa para convertir número de mes a abreviatura en inglés (usado en IDs de MSRC)
+MONTH_ABBREVIATIONS = {
+    1: "Jan", 2: "Feb", 3: "Mar", 4: "Apr", 5: "May", 6: "Jun",
+    7: "Jul", 8: "Aug", 9: "Sep", 10: "Oct", 11: "Nov", 12: "Dec"
+}
+
 # --- FUNCIONES AUXILIARES ---
 
 
@@ -315,11 +321,12 @@ def _parse_acknowledgments(vuln_node, clean_func):
 # --- FUNCIÓN PRINCIPAL DEL COLECTOR DE MSRC ---
 
 
-def fetch_msrc_vulnerabilities():
+def fetch_msrc_vulnerabilities(target_year=2025, target_month=4):
     """
-    Obtiene las últimas vulnerabilidades del Microsoft Security Response Center (MSRC).
+    Obtiene las vulnerabilidades del Microsoft Security Response Center (MSRC)
+    para un mes y año específicos, o el más reciente si no se especifican.
     1. Obtiene la lista de documentos de actualización mensuales.
-    2. Selecciona el documento más reciente.
+    2. Selecciona el documento para el target_year y target_month, o el más reciente.
     3. Descarga y parsea el documento CVRF (XML).
     4. Itera sobre cada vulnerabilidad en el documento.
     5. Aplica filtros (título y descripción no vacíos).
@@ -336,28 +343,55 @@ def fetch_msrc_vulnerabilities():
             print("No se encontraron actualizaciones mensuales de MSRC.")
             return []
 
-        # 2. Ordenar las actualizaciones por fecha de publicación (más recientes primero)
-        sorted_updates = sorted(
-            updates_data['value'],
-            key=lambda x: datetime.strptime(
-                x['InitialReleaseDate'], '%Y-%m-%dT%H:%M:%SZ'),
-            reverse=True
-        )
+        selected_update_doc_summary = None
 
-        if not sorted_updates:  # pragma: no cover
-            print("No se pudieron ordenar las actualizaciones.")
-            return []
+        if target_year and target_month:
+            target_month_abbr = MONTH_ABBREVIATIONS.get(target_month)
+            if not target_month_abbr:  # pragma: no cover
+                print(
+                    f"Mes inválido: {target_month}. No se puede generar el ID de búsqueda.")
+                return []
 
-        # Selecciona el documento más reciente
-        latest_update_doc_summary = sorted_updates[0]
+            target_id_str = f"{target_year}-{target_month_abbr}"
+            print(f"Buscando documento de MSRC con ID: {target_id_str}")
+
+            for update_doc in updates_data['value']:
+                if update_doc.get('ID') == target_id_str:
+                    selected_update_doc_summary = update_doc
+                    break
+
+            if not selected_update_doc_summary:
+                print(
+                    f"No se encontró el documento de MSRC para {target_id_str} (Año: {target_year}, Mes: {target_month}).")
+                available_ids = [doc.get('ID')
+                                 for doc in updates_data['value'] if doc.get('ID')]
+                print(
+                    f"IDs de documentos disponibles en MSRC: {available_ids}")
+                return []
+        else:
+            # Comportamiento original: Selecciona el documento más reciente
+            sorted_updates = sorted(
+                updates_data['value'],
+                key=lambda x: datetime.strptime(
+                    x['InitialReleaseDate'], '%Y-%m-%dT%H:%M:%SZ'),
+                reverse=True
+            )
+
+            if not sorted_updates:  # pragma: no cover
+                print("No se pudieron ordenar las actualizaciones.")
+                return []
+            selected_update_doc_summary = sorted_updates[0]
+            print(
+                f"Seleccionado el documento más reciente de MSRC: {selected_update_doc_summary.get('ID')}")
+
         print(
-            f"Procesando el documento de actualización: {latest_update_doc_summary.get('ID')}")
+            f"Procesando el documento de actualización: {selected_update_doc_summary.get('ID')}")
 
-        cvrf_url = latest_update_doc_summary.get(
+        cvrf_url = selected_update_doc_summary.get(
             'CvrfUrl')  # URL del documento CVRF XML
         if not cvrf_url:  # pragma: no cover
             print(
-                f"No se encontró CvrfUrl para el documento {latest_update_doc_summary.get('ID')}")
+                f"No se encontró CvrfUrl para el documento {selected_update_doc_summary.get('ID')}")
             return []
 
         # 3. Descargar el documento CVRF (XML)
@@ -429,7 +463,7 @@ def fetch_msrc_vulnerabilities():
                 })
 
         print(
-            f"Parseadas {len(parsed_vulnerabilities)} vulnerabilidades del documento {latest_update_doc_summary.get('ID')}.")
+            f"Parseadas {len(parsed_vulnerabilities)} vulnerabilidades del documento {selected_update_doc_summary.get('ID')}.")
         return parsed_vulnerabilities  # 7. Devolver la lista de vulnerabilidades
 
     # Manejo de excepciones
@@ -450,9 +484,13 @@ def fetch_msrc_vulnerabilities():
 
 # --- BLOQUE DE EJECUCIÓN PRINCIPAL (SOLO SI EL SCRIPT SE EJECUTA DIRECTAMENTE) ---
 if __name__ == '__main__':  # pragma: no cover
-    print("Obteniendo Vulnerabilidades de MSRC...")
-    # Llama a la función principal para obtener las vulnerabilidades
-    msrc_vulnerabilities = fetch_msrc_vulnerabilities()
+    print("Obteniendo Vulnerabilidades de MSRC (prueba para el mes actual por defecto)...")
+    # Llama a la función principal para obtener las vulnerabilidades (mes más reciente)
+    # msrc_vulnerabilities = fetch_msrc_vulnerabilities()
+
+    # Ejemplo para obtener vulnerabilidades de Abril 2025:
+    print("\nObteniendo Vulnerabilidades de MSRC para Abril 2025...")
+    msrc_vulnerabilities = fetch_msrc_vulnerabilities(target_year=2025, target_month=4)
 
     if msrc_vulnerabilities:
         print(

@@ -1,46 +1,41 @@
 [
   {
-    "id": "CVE-2025-29825",
-    "title": "Microsoft Edge (Chromium-based) Spoofing Vulnerability",
-    "published_date": "2025-05-01T07:00:00",
-    "description": "User interface (ui) misrepresentation of critical information in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network.",
-    "cwe_id": "CWE-451",
-    "cwe_description": "User Interface (UI) Misrepresentation of Critical Information",
-    "severity": "Low",
-    "cvss_base_score": "6.5",
-    "cvss_temporal_score": "5.7",
-    "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C",
-    "cvss_product_id": "11655",
+    "id": "CVE-2025-3619",
+    "title": "Chromium: CVE-2025-3619 Heap buffer overflow in Codecs",
+    "published_date": "2025-04-17T21:42:59",
+    "description": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see Google Chrome Releases for more information.",
+    "cwe_id": null,
+    "cwe_description": null,
+    "severity": "N/A",
+    "cvss_base_score": null,
+    "cvss_temporal_score": null,
+    "cvss_vector": null,
+    "cvss_product_id": null,
     "affected_product_ids": [
       "11655"
     ],
-    "threat_impact": "Spoofing",
+    "threat_impact": null,
     "threat_impact_product_ids": [
       "11655"
     ],
-    "threat_exploit_status": "Publicly Disclosed:No;Exploited:No;Latest Software Release:Exploitation Less Likely;Older Software Release:Exploitation Less Likely;DOS:N/A",
+    "threat_exploit_status": "DOS:N/A",
     "remediations": [
       "Release Notes"
     ],
-    "acknowledgments": [
-      {
-        "name": "zeeagil",
-        "url": null
-      }
-    ],
+    "acknowledgments": null,
     "revision_history": [
       {
         "number": "1.0",
-        "date": "2025-05-01T07:00:00",
+        "date": "2025-04-17T21:42:59",
         "description": "Information published."
       }
     ],
     "notes_faq": [
-      "According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do? The user would have to click on a specially crafted URL to be compromised by the attacker.",
-      "What is the version information for this release? Microsoft Edge Version Date Released Based on Chromium Version 136.0.3240.50 5/1/2025 136.0.7103.49"
+      "Why is this Chrome CVE included in the Security Update Guide? The vulnerability assigned to this CVE is in Chromium Open Source Software (OSS) which is consumed by Microsoft Edge (Chromium-based). It is being documented in the Security Update Guide to announce that the latest version of Microsoft Edge (Chromium-based) is no longer vulnerable. How can I see the version of the browser? In your Microsoft Edge browser, click on the 3 dots (...) on the very right-hand side of the window Click on Help and Feedback Click on About Microsoft Edge",
+      "What is the version information for this release? Microsoft Edge Version Date Released Based on Chromium Version 135.0.3179.85 4/17/2025 135.0.7049.96"
     ],
     "notes_tags": null,
-    "notes_cna": "Microsoft",
+    "notes_cna": null,
     "notes_customer_action": "Yes",
     "source": "MSRC"
   }
